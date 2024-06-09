@@ -1,0 +1,16 @@
+{
+    "mic_name": "Microphone (NVIDIA Broadcast)",
+    "mic_threshold": 0.023,
+    "loop_interval": 0.02,
+    "image_folder": "images/",
+    "background_color": [0, 255, 0],
+    "blink_min": 3,
+    "blink_max": 7,
+    "images": {
+        "eyes_open_mouth_closed": "eyes_open_mouth_closed.png",
+        "eyes_closed_mouth_closed": "eyes_closed_mouth_closed.png",
+        "eyes_open_mouth_open": "eyes_open_mouth_open.png",
+        "eyes_closed_mouth_open": "eyes_closed_mouth_open.png"
+      }
+}
+  

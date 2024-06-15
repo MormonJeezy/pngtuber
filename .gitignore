@@ -1,2 +1,6 @@
 #ignore image files
 images/*.*
+#ignore pycache
+__pycache__/*.*
+#ignore log files
+*.log

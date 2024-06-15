@@ -11,6 +11,7 @@
         "eyes_closed_mouth_closed": "eyes_closed_mouth_closed.png",
         "eyes_open_mouth_open": "eyes_open_mouth_open.png",
         "eyes_closed_mouth_open": "eyes_closed_mouth_open.png"
-      }
+      },
+    "logging_level": "INFO"
 }
   

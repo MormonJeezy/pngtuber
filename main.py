@@ -13,7 +13,11 @@ pygame.init()
 screen = pygame.display.set_mode((800, 600))
 pygame.display.set_caption("PNG Tuber")
 
+# TODO Set up logging in it's own module-- log level defined in config.json
 def setup_logging(level):
+    """
+    You guessed it... sets up logging.
+    """
     numeric_level = getattr(logging, level.upper(), None)
     if not isinstance(numeric_level, int):
         raise ValueError(f'Invalid log level: {level}')
@@ -22,6 +26,9 @@ def setup_logging(level):
 
 # Main function
 def main(config):
+    """
+    Pull relevent values from config file, fetch microphone input, and display default state.
+    """
     mic_name = config["mic_name"]
     image_folder = config["image_folder"]
     background_color = tuple(config["background_color"])  # Convert list to tuple for Pygame

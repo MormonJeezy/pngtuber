@@ -1,4 +1,8 @@
 {
+    "twitch_channel_name": "",
+    "twitch_app_id": "",
+    "twitch_app_secret": "",
+    "twitch_command_cooldown": 60,
     "mic_name": "Microphone (NVIDIA Broadcast)",
     "mic_threshold": 0.023,
     "loop_interval": 0.02,
